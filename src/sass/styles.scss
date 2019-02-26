@@ -8,13 +8,44 @@ body {
 }
 
 .landing {
-  text-align: center;
   height: 90%;
   background-image: url("https://writeofmind.files.wordpress.com/2014/05/creepy-dark-forest-wide.jpg");
   background-position: center;
+  display: grid;
+  grid-template-rows: 47% 6% 47% ;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    grid-column-start: 2;
+}
+
+#countdown {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 43px;
+  background-color: black;
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 3000000px;
+  padding-top: 5px;
+  // margin-left: 40%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
+  padding-top: 1%;
+  font-size: 30px;
+  a {
+    text-decoration: none;
+    color: red;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: pink;
+  }
 }
