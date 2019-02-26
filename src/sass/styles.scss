@@ -1,0 +1,20 @@
+$font-stack: Helvetica, sans-serif;
+$primary-font-color: red;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-font-color;
+  background-color: black;
+}
+
+.landing {
+  text-align: center;
+  height: 90%;
+  background-image: url("https://writeofmind.files.wordpress.com/2014/05/creepy-dark-forest-wide.jpg");
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
