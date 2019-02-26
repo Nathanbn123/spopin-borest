@@ -16,8 +16,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-h1 {
+
+#land-h1 {
     grid-column-start: 2;
+    color: white;
 }
 
 #countdown {
@@ -35,6 +37,7 @@ h1 {
   // margin-left: 40%;
 }
 
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -47,5 +50,83 @@ h1 {
   a:hover {
     text-decoration: underline;
     color: pink;
+  }
+}
+
+/*********************************************
+MEDIA styles
+****/
+
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.media-h1 {
+  color: white;
+  height: 20%;
+}
+
+
+#reviews {
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 80%;
+  grid-column-gap: 20px;
+  grid-row-gap: 25px;
+}
+
+#first-image {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#first-review {
+  grid-column-start: 3;
+}
+
+#second-image {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+#second-review {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+
+
+/***************************************************
+DEV styles
+*/
+
+body {
+  text-align: center;
+}
+
+.blog-post {
+
+}
+
+.the-team {
+  height: 50%
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    width: 45%;
   }
 }
