@@ -117,7 +117,10 @@ body {
 }
 
 .the-team {
-  height: 50%
+  height: 50%;
+  img {
+    max-width: 750px;
+  }
 }
 
 .post {
